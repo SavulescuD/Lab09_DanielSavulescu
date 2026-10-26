@@ -10,7 +10,7 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
 
-<GridPane hgap="8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/26" fx:controller="ColorChooserController">
+<GridPane hgap="8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/26" fx:controller="lab09_danielsavulescu.lab09_danielsavulescu.ColorChooserController">
   <columnConstraints>
     <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" />
     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
@@ -37,7 +37,7 @@
       <TextField fx:id="blueTextField" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
       <TextField fx:id="alphaTextField" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
       <Circle fill="DODGERBLUE" radius="40.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="3" GridPane.rowSpan="2147483647" />
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="3" GridPane.rowSpan="2147483647" />
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" GridPane.columnIndex="3" GridPane.rowSpan="2147483647" />
    </children>
    <padding>
       <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
